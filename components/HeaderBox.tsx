@@ -1,9 +1,8 @@
-import React from 'react'
 
-const HeaderBox = () => {
+const HeaderBox = ({ type = "title", title, subtext, user }: HeaderBoxProps) => {
   return (
     <div>
-      
+      HeaderBox 
     </div>
   )
 }
