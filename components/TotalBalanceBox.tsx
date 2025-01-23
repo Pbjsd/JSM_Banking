@@ -19,7 +19,7 @@ const TotalBalanceBox = ({
                 </p>
 
                 <p className="total-balance-amount flex-center gap-2">
-
+                    {formatAmount(totalCurrentBalance)}
                 </p>
             </div>
         </div>
