@@ -1,16 +1,14 @@
+"use client"
+
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-<Doughnut data={...} />
+
 
 const DoughnutChart = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <Doughnut data={[]} />
 }
 
 export default DoughnutChart
