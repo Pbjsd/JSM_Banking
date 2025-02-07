@@ -7,7 +7,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const loggedIn = { firstName: 'Sandeep', lastName: 'Kay' }; 
+  const loggedIn = { firstName: 'Sandeep', lastName: 'Kay', $id: "skay", email: "myemail.com", userId: "skay", dwollaCustomerUrl: "insertdwollacustomerurl", dwollaCustomerId: "insertdwollacustomerid", address1: "1234 White House", city: "New York City", state: "New York", postalCode: "10001", dateOfBirth: "01/01/1906", ssn: "947672190" }; 
 
   return (
     <main className="flex h-screen w-full font-inter">
